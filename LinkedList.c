@@ -73,7 +73,7 @@ void delete(LinkedList *list , int value) {
         return;
       }
       
-    // if the node that will be removes is no the head
+    // if the node that will be removed is no the head
     // search the node and keep the previous each iteration
     else {
         while (current) {
